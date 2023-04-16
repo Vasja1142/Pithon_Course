@@ -16,8 +16,9 @@ while flag:
     inp = input().lower()
     flag2 = True
     for (k, v) in bot.items():
-       if k == inp:
-           flag2 = False
+        if k == inp:
+            flag2 = False
+
     if inp == '':
         flag = False
     elif flag2:
