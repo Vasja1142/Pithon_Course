@@ -1,3 +1,3 @@
-text = 'asdfghjklqwerty'
-
-print(text[3: -5: 2])
+import random
+number_random = random.randint(1, 2)
+print(number_random)
